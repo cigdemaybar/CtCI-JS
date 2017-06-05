@@ -23,6 +23,7 @@ export function encodeSpaces(url) {
     }
   }
 
+
   // add an extra 2 characters for each space
   let newLength = url.length - 1 + 2 * spaceCount;
   for (let i = url.length - 1, j = newLength; i >= 0 && j > i; --i, --j) {
