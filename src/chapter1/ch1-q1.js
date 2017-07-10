@@ -15,3 +15,14 @@ export function isUnique(str) {
   }
   return true;
 }
+
+
+// with Set
+// function uniqueSet(str){
+//   var s = new Set(str);
+//   var unique = ''
+//   for (var item in s){
+//     unique += item;
+//   }
+//   return str.length === s.size
+// }
