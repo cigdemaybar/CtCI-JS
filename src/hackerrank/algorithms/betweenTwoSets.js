@@ -18,8 +18,8 @@ function betweenTwoSets(a,b){
     }
   }
   var x = [];
-  for(var i = 0; i < y.length; i++){
-    for(var j = 0; j < sortedA.length; j++){
+  for(let i = 0; i < y.length; i++){
+    for(let j = 0; j < sortedA.length; j++){
       if(y[i]% sortedA[j] !== 0){
         break;
       } else {
@@ -31,3 +31,8 @@ function betweenTwoSets(a,b){
   }
   return x.length;
 }
+
+var a = [2, 4];
+var b = [16, 32, 96];
+
+betweenTwoSets(a,b);

@@ -10,5 +10,5 @@ function main() {
       max = h[ind];
     }
   }
-  console.log(max * word.length);
+  return (max * word.length);
 }
